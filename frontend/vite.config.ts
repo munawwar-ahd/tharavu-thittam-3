@@ -31,7 +31,7 @@ export default defineConfig(({ mode }) => {
     env.VITE_API_URL?.trim().replace(/\/+$/, '') || 'http://127.0.0.1:8000'
 
   return {
-    base: '/tharavu-thittam-3/',
+    base: '/',
     plugins: [
       react(),
       serveFramesPlugin(),
