@@ -1,0 +1,11 @@
+backend
+
+cd C:\Users\munaw\Documents\tamil-hack-fest-1-main\backend
+..\.venv\Scripts\python.exe -m uvicorn main:app --host 0.0.0.0 --port 8002 --reload
+
+frontend
+
+cd C:\Users\munaw\Documents\tamil-hack-fest-1-main\frontend
+npm run dev
+
+http://localhost:5173
