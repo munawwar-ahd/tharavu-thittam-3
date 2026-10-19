@@ -1,19 +1,7 @@
-# Optical Character Recognition for Tamil
-A Optical Character Recognition system that detects text from the scanned copy of an ancient Tamil book and digitises it. A sample page from the scanned copy of book is considered as input and digitsed as a text document omitting the header with page number and the footer with publisher's name.
+## Tharavu Thittam — Tamil OCR
 
-## Implementation Steps
-*    Input images are processed.
-*    Dilation process - for drawing bounding boxes. 
-*    The dilated image is contoured and saved as a separate TIFF file. 
-*    Tesseract OCR is applied on these intermediate outputs.
-*    Converted text is cleaned and compared to manually typed text.
-*    Evaluation metrics: fastwer, Levenshtein, cosine similarity.
-    
-## Important Perks
-*    Multi Language Support in the same system for an image.
-*    The pages in the book “Abithana Chintamani” are separated by a centre line which very well handled and skimmed column-wise.
-*    Perfect recognition and removal of header-footer in the image focusing only the content of the page.
-*    Better accuracy in terms of output compared to Online OCRs.
-# tharavu-thittam-1
-# tamil-ocr
-# tharavu-thittam-2
+Tharavu Thittam is an tesseract OCR + AI-powered Tamil document digitization platform designed to extract and preserve text from historical manuscripts, scanned documents & images. Powered by Google Gemini Vision, it combines Tamil text recognition, PDF processing, multilingual support, and AI-generated comics is in progress to make Tamil archival content more accessible and engaging.
+
+**Tech Stack:** React, TypeScript, Vite, Python, FastAPI, Google Gemini AI, Tesseract OCR.
+
+🔗 **Live Website:** https://tharavu-thittam-3-2px9a35fo-munawwar-ahds-projects.vercel.app/
